@@ -1,0 +1,24 @@
+{
+  "id": "settings",
+  "type": "settings",
+  "lang": "it-it",
+  "data": {
+    "site_name": "Specchiami",
+    "logo": null,
+    "nav_item": [
+      { "label": "Home", "link": { "link_type": "Web", "url": "/" } },
+      { "label": "Servizi", "link": { "link_type": "Web", "url": "/servizi" } },
+      { "label": "Chi siamo", "link": { "link_type": "Web", "url": "/chi-siamo" } },
+      { "label": "Contatti", "link": { "link_type": "Web", "url": "/contatti" } }
+    ],
+    "footer_text": [
+      {
+        "type": "paragraph",
+        "text": "Specialisti in bellezza e cura della persona dal 2010.",
+        "spans": []
+      }
+    ],
+    "contact_email": "info@specchiami.it",
+    "contact_phone": "+39 02 1234 5678"
+  }
+}

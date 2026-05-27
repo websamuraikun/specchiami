@@ -1,0 +1,64 @@
+{
+  "id": "team",
+  "type": "SharedSlice",
+  "name": "Team",
+  "description": "Team member cards with photo, name, role, and bio",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Grid of team cards",
+      "primary": {
+        "eyebrow": {
+          "type": "Text",
+          "config": { "label": "Eyebrow", "placeholder": "Il nostro team" }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "single": "heading2",
+            "placeholder": "Le persone dietro il brand"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "multi": "paragraph",
+            "placeholder": "Presentazione del team..."
+          }
+        }
+      },
+      "items": {
+        "photo": {
+          "type": "Image",
+          "config": {
+            "label": "Photo",
+            "constraint": { "width": 400, "height": 400 },
+            "thumbnails": []
+          }
+        },
+        "name": {
+          "type": "Text",
+          "config": { "label": "Name", "placeholder": "Nome Cognome" }
+        },
+        "role": {
+          "type": "Text",
+          "config": { "label": "Role", "placeholder": "Specialista Benessere" }
+        },
+        "bio": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Bio",
+            "multi": "paragraph",
+            "placeholder": "Breve biografia..."
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

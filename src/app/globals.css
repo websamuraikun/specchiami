@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: theme('colors.surface');
+    color: theme('colors.on-surface');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .input-line {
+    @apply border-0 border-b border-outline-variant bg-transparent outline-none pb-2 w-full transition-colors duration-200 focus:border-primary;
+  }
+
+  .select-line {
+    @apply border-0 border-b border-outline-variant bg-transparent outline-none pb-2 appearance-none cursor-pointer transition-colors duration-200 focus:border-primary;
+  }
+}

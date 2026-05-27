@@ -1,0 +1,53 @@
+{
+  "id": "contact_form",
+  "type": "SharedSlice",
+  "name": "ContactForm",
+  "description": "Enquiry form with contact details sidebar",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": "Get in Touch"
+          }
+        },
+        "intro": {
+          "type": "Text",
+          "config": {
+            "label": "Intro text",
+            "placeholder": "We would love to hear from you. Please fill out the form below..."
+          }
+        },
+        "contact_email": {
+          "type": "Text",
+          "config": {
+            "label": "Contact email",
+            "placeholder": "hello@specchiami.it"
+          }
+        },
+        "contact_phone": {
+          "type": "Text",
+          "config": {
+            "label": "Contact phone",
+            "placeholder": "+39 012 345 6789"
+          }
+        },
+        "footer_note": {
+          "type": "Text",
+          "config": {
+            "label": "Footer note (italic)",
+            "placeholder": "Available for events across Italy and select European destinations."
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

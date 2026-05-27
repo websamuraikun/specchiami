@@ -1,0 +1,57 @@
+{
+  "id": "gallery_grid",
+  "type": "SharedSlice",
+  "name": "GalleryGrid",
+  "description": "Masonry photo gallery with category filter tabs",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Page heading",
+            "placeholder": "Moments of Magic"
+          }
+        },
+        "intro": {
+          "type": "Text",
+          "config": {
+            "label": "Intro text",
+            "placeholder": "Explore a curated selection of events where Specchiami added a touch of interactive elegance."
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Photo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "category": {
+          "type": "Select",
+          "config": {
+            "label": "Category",
+            "placeholder": "weddings",
+            "options": ["weddings", "corporate", "parties"],
+            "default_value": "weddings"
+          }
+        },
+        "venue_name": {
+          "type": "Text",
+          "config": {
+            "label": "Venue / event name (shown on hover)",
+            "placeholder": "Villa del Lago"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "eyebrow": { "__TYPE__": "FieldContent", "value": "I nostri servizi" },
+      "heading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "heading2", "content": { "text": "Cosa offriamo" } }]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "paragraph", "content": { "text": "Scopri la nostra gamma completa di trattamenti personalizzati." } }]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["icon", { "__TYPE__": "ImageContent", "value": { "url": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png", "alt": "Icona", "dimensions": { "width": 80, "height": 80 } } }],
+          ["service_name", { "__TYPE__": "FieldContent", "value": "Trattamenti Viso" }],
+          ["description", { "__TYPE__": "StructuredTextContent", "value": [{ "type": "paragraph", "content": { "text": "Pulizia profonda, idratazione e anti-età con prodotti premium." } }] }]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["icon", { "__TYPE__": "ImageContent", "value": { "url": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png", "alt": "Icona", "dimensions": { "width": 80, "height": 80 } } }],
+          ["service_name", { "__TYPE__": "FieldContent", "value": "Massaggi Relax" }],
+          ["description", { "__TYPE__": "StructuredTextContent", "value": [{ "type": "paragraph", "content": { "text": "Tecniche rilassanti e decontratturanti per il benessere totale." } }] }]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["icon", { "__TYPE__": "ImageContent", "value": { "url": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png", "alt": "Icona", "dimensions": { "width": 80, "height": 80 } } }],
+          ["service_name", { "__TYPE__": "FieldContent", "value": "Manicure & Pedicure" }],
+          ["description", { "__TYPE__": "StructuredTextContent", "value": [{ "type": "paragraph", "content": { "text": "Cura delle mani e dei piedi con nail art personalizzata." } }] }]
+        ]
+      }
+    ]
+  }
+]

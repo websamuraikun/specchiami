@@ -1,0 +1,46 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "eyebrow": { "__TYPE__": "FieldContent", "value": "Il nostro team" },
+      "heading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "heading2", "content": { "text": "I nostri esperti" } }]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "paragraph", "content": { "text": "Professionisti appassionati dedicati alla tua bellezza." } }]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["photo", { "__TYPE__": "ImageContent", "value": { "url": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop&face", "alt": "Team member", "dimensions": { "width": 400, "height": 400 } } }],
+          ["name", { "__TYPE__": "FieldContent", "value": "Giulia Rossi" }],
+          ["role", { "__TYPE__": "FieldContent", "value": "Estetista Senior" }],
+          ["bio", { "__TYPE__": "StructuredTextContent", "value": [{ "type": "paragraph", "content": { "text": "10 anni di esperienza in trattamenti viso e corpo." } }] }]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["photo", { "__TYPE__": "ImageContent", "value": { "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&face", "alt": "Team member", "dimensions": { "width": 400, "height": 400 } } }],
+          ["name", { "__TYPE__": "FieldContent", "value": "Sofia Bianchi" }],
+          ["role", { "__TYPE__": "FieldContent", "value": "Nail Artist" }],
+          ["bio", { "__TYPE__": "StructuredTextContent", "value": [{ "type": "paragraph", "content": { "text": "Specializzata in nail art e ricostruzione unghie." } }] }]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["photo", { "__TYPE__": "ImageContent", "value": { "url": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=400&fit=crop&face", "alt": "Team member", "dimensions": { "width": 400, "height": 400 } } }],
+          ["name", { "__TYPE__": "FieldContent", "value": "Marco Conti" }],
+          ["role", { "__TYPE__": "FieldContent", "value": "Massaggiatore" }],
+          ["bio", { "__TYPE__": "StructuredTextContent", "value": [{ "type": "paragraph", "content": { "text": "Certificato in massaggio ayurvedico e decontratturante." } }] }]
+        ]
+      }
+    ]
+  }
+]

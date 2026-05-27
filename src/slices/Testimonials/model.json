@@ -1,0 +1,56 @@
+{
+  "id": "testimonials",
+  "type": "SharedSlice",
+  "name": "Testimonials",
+  "description": "Customer testimonial cards with quote, author name, role, and photo",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Grid of testimonial cards",
+      "primary": {
+        "eyebrow": {
+          "type": "Text",
+          "config": { "label": "Eyebrow", "placeholder": "Cosa dicono di noi" }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "single": "heading2",
+            "placeholder": "Le parole dei nostri clienti"
+          }
+        }
+      },
+      "items": {
+        "quote": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Quote",
+            "multi": "paragraph,strong,em",
+            "placeholder": "La testimonianza del cliente..."
+          }
+        },
+        "author_name": {
+          "type": "Text",
+          "config": { "label": "Author Name", "placeholder": "Nome Cliente" }
+        },
+        "author_role": {
+          "type": "Text",
+          "config": { "label": "Author Role / Location", "placeholder": "Cliente abituale" }
+        },
+        "author_photo": {
+          "type": "Image",
+          "config": {
+            "label": "Author Photo",
+            "constraint": { "width": 100, "height": 100 },
+            "thumbnails": []
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

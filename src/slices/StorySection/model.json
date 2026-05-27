@@ -1,0 +1,55 @@
+{
+  "id": "story_section",
+  "type": "SharedSlice",
+  "name": "StorySection",
+  "description": "Sticky headline on left, long-form narrative with inline image on right",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Section heading",
+            "placeholder": "Beyond the Photobooth",
+            "single": "heading2"
+          }
+        },
+        "anchor_id": {
+          "type": "Text",
+          "config": {
+            "label": "Anchor ID (for internal links)",
+            "placeholder": "our-story"
+          }
+        },
+        "paragraph_1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "First paragraph",
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "middle_image": {
+          "type": "Image",
+          "config": {
+            "label": "Middle image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "paragraph_2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Second paragraph",
+            "multi": "paragraph,strong,em"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

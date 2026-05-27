@@ -1,0 +1,42 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "eyebrow": { "__TYPE__": "FieldContent", "value": "Cosa dicono di noi" },
+      "heading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "heading2", "content": { "text": "Le parole dei nostri clienti" } }]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["quote", { "__TYPE__": "StructuredTextContent", "value": [{ "type": "paragraph", "content": { "text": "Un'esperienza meravigliosa. Mi sono sentita curata e viziata come mai prima d'ora. Tornerò sicuramente!" } }] }],
+          ["author_name", { "__TYPE__": "FieldContent", "value": "Laura M." }],
+          ["author_role", { "__TYPE__": "FieldContent", "value": "Cliente da 3 anni" }],
+          ["author_photo", { "__TYPE__": "ImageContent", "value": { "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&face", "alt": "Laura M.", "dimensions": { "width": 100, "height": 100 } } }]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["quote", { "__TYPE__": "StructuredTextContent", "value": [{ "type": "paragraph", "content": { "text": "Il massaggio decontratturante è stato incredibile. Team professionale e ambiente rilassante. Consigliatissimo!" } }] }],
+          ["author_name", { "__TYPE__": "FieldContent", "value": "Marco B." }],
+          ["author_role", { "__TYPE__": "FieldContent", "value": "Cliente abituale" }],
+          ["author_photo", { "__TYPE__": "ImageContent", "value": { "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&face", "alt": "Marco B.", "dimensions": { "width": 100, "height": 100 } } }]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          ["quote", { "__TYPE__": "StructuredTextContent", "value": [{ "type": "paragraph", "content": { "text": "La nail art che mi hanno fatto è stupenda. Professionalità e creatività al top. Il mio posto preferito!" } }] }],
+          ["author_name", { "__TYPE__": "FieldContent", "value": "Elena F." }],
+          ["author_role", { "__TYPE__": "FieldContent", "value": "Cliente da 1 anno" }],
+          ["author_photo", { "__TYPE__": "ImageContent", "value": { "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&face", "alt": "Elena F.", "dimensions": { "width": 100, "height": 100 } } }]
+        ]
+      }
+    ]
+  }
+]

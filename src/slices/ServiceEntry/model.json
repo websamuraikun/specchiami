@@ -1,0 +1,94 @@
+{
+  "id": "service_entry",
+  "type": "SharedSlice",
+  "name": "ServiceEntry",
+  "description": "Full-width alternating service sections with image, number label, heading, checklist, and CTA",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default",
+      "primary": {
+        "page_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Page heading",
+            "placeholder": "Our Services",
+            "single": "heading1"
+          }
+        },
+        "page_intro": {
+          "type": "Text",
+          "config": {
+            "label": "Page intro text",
+            "placeholder": "Elevate your events with our sophisticated magic mirror experiences."
+          }
+        }
+      },
+      "items": {
+        "number_label": {
+          "type": "Text",
+          "config": {
+            "label": "Number / category label",
+            "placeholder": "01 / Weddings"
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Service heading",
+            "placeholder": "Timeless Memories"
+          }
+        },
+        "body": {
+          "type": "Text",
+          "config": {
+            "label": "Service body",
+            "placeholder": "Capture the magic of your special day..."
+          }
+        },
+        "bullet_items": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Feature checklist",
+            "multi": "list-item",
+            "placeholder": "Studio-grade lighting\nCustom digital overlays..."
+          }
+        },
+        "cta_label": {
+          "type": "Text",
+          "config": {
+            "label": "CTA label",
+            "placeholder": "Book this Service"
+          }
+        },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "CTA link",
+            "allowTargetBlank": false
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Service image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "image_position": {
+          "type": "Select",
+          "config": {
+            "label": "Image position",
+            "placeholder": "left",
+            "options": ["left", "right"],
+            "default_value": "left"
+          }
+        }
+      }
+    }
+  ]
+}

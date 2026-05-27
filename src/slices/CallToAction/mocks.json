@@ -1,0 +1,19 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "heading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "heading2", "content": { "text": "Prenota il tuo trattamento" } }]
+      },
+      "body": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "paragraph", "content": { "text": "Regala un momento di bellezza a te o a chi ami. Siamo qui per te." } }]
+      },
+      "button_label": { "__TYPE__": "FieldContent", "value": "Prenota ora" },
+      "button_link": { "__TYPE__": "FieldContent", "value": { "link_type": "Web", "url": "/contatti" } }
+    },
+    "items": []
+  }
+]

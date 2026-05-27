@@ -1,0 +1,77 @@
+{
+  "id": "features_bento",
+  "type": "SharedSlice",
+  "name": "FeaturesBento",
+  "description": "12-column bento grid of feature cards with icons, text, and optional images",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default",
+      "primary": {
+        "section_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Section heading",
+            "placeholder": "Not Just a Booth. An Experience."
+          }
+        },
+        "section_body": {
+          "type": "Text",
+          "config": {
+            "label": "Section body",
+            "placeholder": "Elevate your event with a seamless blend of heritage aesthetics and modern interactive technology."
+          }
+        }
+      },
+      "items": {
+        "icon": {
+          "type": "Text",
+          "config": {
+            "label": "Icon (emoji or symbol name)",
+            "placeholder": "📷"
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Card title",
+            "placeholder": "Editorial Quality Capture"
+          }
+        },
+        "body": {
+          "type": "Text",
+          "config": {
+            "label": "Card body",
+            "placeholder": "Studio-grade lighting and high-resolution cameras..."
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Card image (optional)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "card_style": {
+          "type": "Select",
+          "config": {
+            "label": "Card style",
+            "placeholder": "warm",
+            "options": [
+              "warm",
+              "cool",
+              "image-overlay",
+              "accent"
+            ],
+            "default_value": "warm"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

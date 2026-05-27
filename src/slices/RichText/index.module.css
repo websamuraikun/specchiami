@@ -1,0 +1,33 @@
+.richtext {
+  max-width: 640px;
+  margin: var(--section-gap) auto;
+  padding: 0 2rem;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+.richtext h1,
+.richtext h2,
+.richtext h3,
+.richtext h4 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.richtext p {
+  margin-bottom: 1rem;
+  color: var(--color-text-muted);
+}
+
+.richtext a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.richtext a:hover {
+  opacity: 0.8;
+}

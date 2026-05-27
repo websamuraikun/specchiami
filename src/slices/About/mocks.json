@@ -1,0 +1,31 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "eyebrow": { "__TYPE__": "FieldContent", "value": "Chi siamo" },
+      "heading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "heading2", "content": { "text": "La nostra storia" } }]
+      },
+      "body": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          { "type": "paragraph", "content": { "text": "Nati dalla passione per la bellezza autentica, offriamo un'esperienza di cura che valorizza la tua unicità." } },
+          { "type": "paragraph", "content": { "text": "Con anni di esperienza e un team di professionisti dedicati, ogni visita è un momento di rinascita." } }
+        ]
+      },
+      "image": {
+        "__TYPE__": "ImageContent",
+        "value": {
+          "url": "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=800&h=600&fit=crop",
+          "alt": "Il nostro team",
+          "dimensions": { "width": 800, "height": 600 }
+        }
+      },
+      "button_label": { "__TYPE__": "FieldContent", "value": "Contattaci" },
+      "button_link": { "__TYPE__": "FieldContent", "value": { "link_type": "Web", "url": "/contatti" } }
+    },
+    "items": []
+  }
+]

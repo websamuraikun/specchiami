@@ -1,0 +1,64 @@
+{
+  "id": "about_hero",
+  "type": "SharedSlice",
+  "name": "AboutHero",
+  "description": "Asymmetric hero with italic heading, body, link, large main image, and floating accent image",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Default",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading (use italic for accent word)",
+            "placeholder": "The Art of Reflection",
+            "single": "heading1,em"
+          }
+        },
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body text",
+            "multi": "paragraph,strong,em",
+            "placeholder": "We believe that capturing memories should be as elegant as the events themselves."
+          }
+        },
+        "link_label": {
+          "type": "Text",
+          "config": {
+            "label": "Link label",
+            "placeholder": "Discover Our Story"
+          }
+        },
+        "link_anchor": {
+          "type": "Text",
+          "config": {
+            "label": "Link anchor ID",
+            "placeholder": "our-story"
+          }
+        },
+        "main_image": {
+          "type": "Image",
+          "config": {
+            "label": "Main hero image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "accent_image": {
+          "type": "Image",
+          "config": {
+            "label": "Floating accent image (small)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

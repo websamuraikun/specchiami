@@ -1,0 +1,68 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "site_name": {
+        "type": "Text",
+        "config": {
+          "label": "Site Name",
+          "placeholder": "Specchiami"
+        }
+      },
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": { "width": 400, "height": 120 },
+          "thumbnails": []
+        }
+      },
+      "nav_item": {
+        "type": "Group",
+        "config": {
+          "label": "Navigation Links",
+          "repeat": true,
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": { "label": "Label", "placeholder": "Home" }
+            },
+            "link": {
+              "type": "Link",
+              "config": { "label": "Link", "allowTargetBlank": false }
+            }
+          }
+        }
+      }
+    },
+    "Footer": {
+      "footer_text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Footer Text",
+          "placeholder": "Short description or tagline...",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,em,hyperlink"
+        }
+      },
+      "contact_email": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Email",
+          "placeholder": "info@example.com"
+        }
+      },
+      "contact_phone": {
+        "type": "Text",
+        "config": {
+          "label": "Contact Phone",
+          "placeholder": "+39 000 000 0000"
+        }
+      }
+    }
+  }
+}

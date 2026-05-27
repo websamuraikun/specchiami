@@ -1,0 +1,82 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"section_heading": {
+				"__TYPE__": "FieldContent",
+				"value": "till",
+				"type": "Text"
+			},
+			"section_body": {
+				"__TYPE__": "FieldContent",
+				"value": "straw",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"icon",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "speech",
+							"type": "Text"
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "frighten",
+							"type": "Text"
+						}
+					],
+					[
+						"body",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "by",
+							"type": "Text"
+						}
+					],
+					[
+						"image",
+						{
+							"__TYPE__": "ImageContent",
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
+								"width": 3168,
+								"height": 4752
+							},
+							"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
+							"width": 3168,
+							"height": 4752,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"alt": "structure",
+							"thumbnails": {}
+						}
+					],
+					[
+						"card_style",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "cool",
+							"type": "Select"
+						}
+					]
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "eyebrow": {
+        "__TYPE__": "FieldContent",
+        "value": "Benvenuti"
+      },
+      "heading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "heading1", "content": { "text": "Rifletti la tua bellezza" } }]
+      },
+      "subheading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [{ "type": "paragraph", "content": { "text": "Un'esperienza unica di cura e benessere pensata per te." } }]
+      },
+      "cta_label": {
+        "__TYPE__": "FieldContent",
+        "value": "Scopri i nostri servizi"
+      },
+      "cta_link": {
+        "__TYPE__": "FieldContent",
+        "value": { "link_type": "Web", "url": "#servizi" }
+      },
+      "background_image": {
+        "__TYPE__": "ImageContent",
+        "value": {
+          "url": "https://images.unsplash.com/photo-1560066984-138daaa7d42f?w=1920&h=1080&fit=crop",
+          "alt": "Hero background",
+          "dimensions": { "width": 1920, "height": 1080 }
+        }
+      }
+    },
+    "items": []
+  }
+]
